@@ -2,13 +2,13 @@
 
 @section('content')
 	<!-- header end -->
-	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('themes/ezone/assets/img/bg/breadcrumb.jpg') }})">
+	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('themes/ezone/assets/img/logo/bg.png') }})">
 		<div class="container">
 			<div class="breadcrumb-content text-center">
 				<h2>cart page</h2>
 				<ul>
-					<li><a href="{{ url('/') }}">home</a></li>
-					<li> cart page</li>
+					<li><a href="{{ url('/') }}" style="color:black">home</a></li>
+					<li style="color:black"> cart page</li>
 				</ul>
 			</div>
 		</div>

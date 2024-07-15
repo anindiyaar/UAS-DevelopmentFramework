@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('themes/ezone/assets/img/favicon.png') }}">
+        <link rel="shortcut icon" type="image/x-icon" href="https://www.iegcodestore.my.id/ieg.png">
 		
 		<!-- all css here -->
         <link rel="stylesheet" href="{{ asset('themes/ezone/assets/css/bootstrap.min.css') }}">
@@ -39,14 +39,14 @@
                     <div class="header-bottom-wrapper">
                         <div class="logo-2 furniture-logo ptb-30">
                             <a href="/">
-                                <img src="{{ asset('themes/ezone/assets/img/logo/2.png') }}" alt="">
+                                <img src="https://gemilangmultiteknologi.vercel.app/image/l-1/iegcode.png" height="50" width="150" alt="">
                             </a>
                         </div>
                         <div class="menu-style-2 furniture-menu menu-hover">
                             <nav>
                                 <ul>
-                                    <li><a href="/">home</a>
-                                        <ul class="single-dropdown">
+                                    <!-- <li><a href="/">Selamat Datang dan Selamat Belanja</a> -->
+                                        <!-- <ul class="single-dropdown">
                                             <li><a href="index.html">Fashion</a></li>
                                             <li><a href="index-fashion-2.html">Fashion style 2</a></li>
                                             <li><a href="index-fruits.html">fruits</a></li>
@@ -58,9 +58,9 @@
                                             <li><a href="index-handicraft.html">handicraft</a></li>
                                             <li><a target="_blank" href="index-smart-watch.html">smart watch</a></li>
                                             <li><a href="index-sports.html">sports</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">pages</a>
+                                        </ul> -->
+                                    <!-- </li> -->
+                                    <!-- <li><a href="#">pages</a>
                                         <ul class="single-dropdown">
                                             <li><a href="about-us.html">about us</a></li>
                                             <li><a href="menu-list.html">menu list</a></li>
@@ -71,8 +71,8 @@
                                             <li><a href="wishlist.html">wishlist</a></li>
                                             <li><a href="contact.html">contact</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a href="{{ url('products') }}">shop</a>
+                                    </li> -->
+                                    <!-- <li><a href="{{ url('products') }}">shop</a>
                                         <div class="category-menu-dropdown shop-menu">
                                             <div class="category-dropdown-style category-common2 mb-30">
                                                 <h4 class="categories-subtitle"> shop layout</h4>
@@ -118,15 +118,15 @@
                                             <li><a href="blog-details-sidebar.html">blog details 2</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a href="contact.html">contact</a></li> -->
                                 </ul>
                             </nav>
                         </div>
                         <div class="header-cart">
-                            <a class="icon-cart-furniture" href="{{ url('carts') }}">
-                                <i class="ti-shopping-cart"></i>
-                                <span class="shop-count-furniture green">{{ Cart::count() }}</span>
-                            </a>
+                                <a class="icon-cart-furniture" href="{{ url('carts') }}">
+                                    <i class="ti-shopping-cart"></i>
+                                    <span class="shop-count-furniture green">{{ Cart::count() }}</span>
+                                </a>
                             <!-- @if (Cart::count() > 0)
                                 <ul class="cart-dropdown">
                                     @foreach (Cart::content() as $item)
@@ -166,10 +166,10 @@
                     <div class="row">
                         <div class="mobile-menu-area d-md-block col-md-12 col-lg-12 col-12 d-lg-none d-xl-none">
                             <div class="mobile-menu">
-                                <nav id="mobile-menu-active">
-                                    <ul class="menu-overflow">
-                                        <li><a href="#">HOME</a>
-                                            <ul>
+                                <!-- <nav id="mobile-menu-active"> -->
+                                    <!-- <ul class="menu-overflow"> -->
+                                        <!-- <li><a href="#">HOME</a> -->
+                                            <!-- <ul>
                                                 <li><a href="index.html">Fashion</a></li>
                                                 <li><a href="index-fashion-2.html">Fashion style 2</a></li>
                                                 <li><a href="index-fruits.html">Fruits</a></li>
@@ -181,9 +181,9 @@
                                                 <li><a href="index-handicraft.html">handicraft</a></li>
                                                 <li><a href="index-smart-watch.html">smart watch</a></li>
                                                 <li><a href="index-sports.html">sports</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">pages</a>
+                                            </ul> -->
+                                        <!-- </li> -->
+                                        <!-- <li><a href="#">pages</a>
                                             <ul>
                                                 <li><a href="about-us.html">about us</a></li>
                                                 <li><a href="menu-list.html">menu list</a></li>
@@ -224,9 +224,9 @@
                                                 <li><a href="blog-details-sidebar.html">blog details 2</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html"> Contact  </a></li>
-                                    </ul>
-                                </nav>							
+                                        <li><a href="contact.html"> Contact  </a></li> -->
+                                    <!-- </ul> -->
+                                <!-- </nav>							 -->
                             </div>
                         </div>
                     </div>
@@ -276,7 +276,7 @@
         @yield('content')
        
         <!-- services -->
-        <div class="services-area wrapper-padding-4 gray-bg pt-120 pb-80">
+        <!-- <div class="services-area wrapper-padding-4 gray-bg pt-120 pb-80">
             <div class="container-fluid">
                 <div class="services-wrapper">
                     <div class="single-services mb-40">
@@ -308,7 +308,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- end -->
 
         <!-- footer -->
@@ -317,9 +317,9 @@
                 <div class="container-fluid">
                     <div class="widget-wrapper">
                         <div class="footer-widget mb-30">
-                            <a href="#"><img src="{{ asset('themes/ezone/assets/img/logo/2.png') }}" alt=""></a>
+                            <a href="#"><img src="https://gemilangmultiteknologi.vercel.app/image/l-1/iegcode.png" height="50" width="150" alt=""></a>
                             <div class="footer-about-2">
-                                <p>There are many variations of passages of Lorem Ipsum <br>the majority have suffered alteration in some form, by <br> injected humour</p>
+                                <p>E-Commerce terbaik di indonesia <br>Murah dan mudah dalam pemesanan, by <br> iegcode.</p>
                             </div>
                         </div>
                         <div class="footer-widget mb-30">
@@ -330,15 +330,7 @@
                                         <span>Address: </span>
                                     </div>
                                     <div class="footer-info-content3">
-                                        <p>66 Sipu road Rampura Banasree <br>USA- 10800</p>
-                                    </div>
-                                </div>
-                                <div class="footer-address-furniture">
-                                    <div class="footer-info-icon3">
-                                        <span>Phone: </span>
-                                    </div>
-                                    <div class="footer-info-content3">
-                                        <p>+8801 (33) 515609735 <br>+8801 (66) 223352333</p>
+                                        <p>Sleman, Yogyakarta <br>55581</p>
                                     </div>
                                 </div>
                                 <div class="footer-address-furniture">
@@ -346,13 +338,13 @@
                                         <span>E-mail: </span>
                                     </div>
                                     <div class="footer-info-content3">
-                                        <p><a href="#"> email@domain.com</a> <br><a href="#"> domain@mail.info</a></p>
+                                        <p><a href="#"> iegcodeid@gmail.com</a> </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="footer-widget mb-30">
-                            <h3 class="footer-widget-title-5">Newsletter</h3>
+                            <h3 class="footer-widget-title-5">Collaborate</h3>
                             <div class="footer-newsletter-2">
                                 <p>Send us your mail or next updates</p>
                                 <div id="mc_embed_signup" class="subscribe-form-5">
@@ -375,7 +367,7 @@
                     <div class="row">
                         <div class="col-12 text-center">
                             <div class="copyright-furniture">
-                                <p>Copyright © <a href="https://hastech.company/">HasTech</a> 2018 . All Right Reserved.</p>
+                                <p>Copyright © <a href="https://iegcode.my.id/">made with love by iegcode.</a></p>
                             </div>
                         </div>
                     </div>

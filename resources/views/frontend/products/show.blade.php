@@ -1,13 +1,13 @@
 @extends('frontend.layout')
 
 @section('content')
-	<div class="breadcrumb-area pt-205 pb-210" style="background-image: url({{ asset('themes/ezone/assets/img/bg/breadcrumb.jpg') }})">
+	<div class="breadcrumb-area pt-205 pb-210" style="background-image: url({{ asset('themes/ezone/assets/img/logo/bg.png') }})">
 		<div class="container">
 			<div class="breadcrumb-content text-center">
 				<h2>product details</h2>
 				<ul>
-					<li><a href="/">home</a></li>
-					<li> product details </li>
+					<li><a href="/" style="color: black;">home</a></li>
+					<li style="color: black;"> product details </li>
 				</ul>
 			</div>
 		</div>
@@ -128,7 +128,7 @@
 								@endforeach
 							</ul>
 						</div>
-						<div class="product-details-cati-tag mtb-10">
+						<!-- <div class="product-details-cati-tag mtb-10">
 							<ul>
 								<li class="categories-title">Tags :</li>
 								<li><a href="#">fashion</a></li>
@@ -161,8 +161,8 @@
 										<i class="icofont icofont-social-flikr"></i>
 									</a>
 								</li>
-							</ul>
-						</div>
+							</ul> -->
+						<!-- </div> -->
 					</div>
 				</div>
 			</div>

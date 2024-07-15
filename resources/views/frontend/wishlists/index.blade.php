@@ -1,13 +1,13 @@
 @extends('frontend.layout')
 
 @section('content')
-	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('themes/ezone/assets/img/bg/breadcrumb.jpg') }})">
+	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('themes/ezone/assets/img/logo/bg.png') }})">
 		<div class="container-fluid">
 			<div class="breadcrumb-content text-center">
 				<h2>Wishlist Saya</h2>
 				<ul>
-					<li><a href="{{ url('/') }}">home</a></li>
-					<li>Wishlist</li>
+					<li><a href="{{ url('/') }}" style="color:black">home</a></li>
+					<li style="color:black">Wishlist</li>
 				</ul>
 			</div>
 		</div>

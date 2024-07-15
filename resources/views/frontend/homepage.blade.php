@@ -5,14 +5,14 @@
         <div class="slider-area">
             <div class="slider-active owl-carousel">
                 @foreach($slides as $slide)
-                    <div class="single-slider-4 slider-height-6 bg-img" style="background-image: url({{ Storage::url($slide->path) }})">
+                    <div class="single-slider-6 slider-height-6 bg-img" style="background-image: url({{ Storage::url($slide->path) }})">
                         <div class="container">
                             <div class="row">
                                 <div class="ml-auto col-lg-6">
                                     <div class="furniture-content fadeinup-animated">
                                         <h2 class="animated">{{ $slide->title }}</h2>
                                         <p class="animated">{{ $slide->body }}</p>
-                                        <a class="furniture-slider-btn btn-hover animated" href="{{ $slide->url }}">Go</a>
+                                        <!-- <a class="furniture-slider-btn btn-hover animated" href="{{ $slide->url }}">Go</a> -->
                                     </div>
                                 </div>
                             </div>
@@ -28,8 +28,8 @@
 	<div class="popular-product-area wrapper-padding-3 pt-115 pb-115">
 		<div class="container-fluid">
 			<div class="section-title-6 text-center mb-50">
-				<h2>Popular Product</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+				<h2>Product</h2>
+				<p>Pilih product yang akan anda checkout.</p>
 			</div>
 			<div class="product-style">
 				<div class="popular-product-active owl-carousel">
